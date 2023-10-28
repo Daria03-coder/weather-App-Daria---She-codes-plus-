@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.celsius {
+  text-decoration: none;
+}
+.fahrenheit {
+  text-decoration: none;
+}
+.current-position {
+  width: 110px;
+  height: 110px;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px rgba(105, 103, 234, 0.25);
+}
+.city-search {
+  margin: 0 auto;
+  display: block;
+  max-width: 260px;
+  width: 100%;
+  position: relative;
+}
+.city-search:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+.border {
+  border: 3px solid black;
+  background-color: rgba(248, 248, 248, 0.4);
+}
+.container {
+  background: linear-gradient(transparent, #fff), url(../images/sunny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px auto 0;
+  padding: 20px 20px;
+  border: 1px solid black;
+  font-size: 25px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+button {
+  float: right;
+  display: block;
+  margin-right: 0px;
+  clear: left;
+}
+input {
+  width: 100%;
+}
