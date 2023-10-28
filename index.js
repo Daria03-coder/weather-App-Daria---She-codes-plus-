@@ -12,7 +12,7 @@ let months = [
   "September",
   "October",
   "November",
-  "December",
+  "December"
 ];
 let date = now.getDate();
 let hours = now.getHours();
@@ -26,9 +26,6 @@ if (hours < 10) {
 }
 let h3 = document.querySelector("h3");
 h3.innerHTML = `${months[monthIndex]} ${date}, ${hours}:${minutes}`;
-
-
-
 
 let input = document.querySelector("#search-button");
 function search(event) {
@@ -67,11 +64,3 @@ function showTemperature(response) {
 }
 let newPosition = document.querySelector("button");
 newPosition.addEventListener("click", currentPlace);
-
-
-
-
-
-
-
-
